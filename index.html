@@ -185,8 +185,8 @@
     .reveal.visible { opacity: 1; transform: none; }
   </style>
   <!-- GHL Chat Widget -->
-  <script>window.GHL_CHAT_LOCATION_ID = "jDoRsNEPg0qtXUYNouR3";</script>
-  <script src="https://widgets.leadconnectorhq.com/loader.js" data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js" data-widget-id="jDoRsNEPg0qtXUYNouR3" defer></script>
+  <script>window.GHL_CHAT_LOCATION_ID = "qpJIthlI0j2Km9viDFGO";</script>
+  <script src="https://widgets.leadconnectorhq.com/loader.js" data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js" data-widget-id="qpJIthlI0j2Km9viDFGO" defer></script>
 </head>
 <body>
 
@@ -487,14 +487,14 @@
     const btn = document.getElementById('submit-btn');
     btn.disabled = true; btn.textContent = 'Sending…';
     const payload = {
-      locationId: 'jDoRsNEPg0qtXUYNouR3',
+      locationId: 'qpJIthlI0j2Km9viDFGO',
       firstName: document.getElementById('name').value.split(' ')[0],
       lastName: document.getElementById('name').value.split(' ').slice(1).join(' ') || '',
       phone: document.getElementById('phone').value,
       email: document.getElementById('email').value,
       address1: document.getElementById('address').value,
       city: 'Lubbock', state: 'TX', country: 'US',
-      tags: ['source:hvac-lubbock', '806pro', formData.service, formData.urgency].filter(Boolean),
+      tags: ['source:hvac-lubbock', 'type:consumer-lead', 'brand:806-pro', formData.service, formData.urgency].filter(Boolean),
       source: 'lubbockhvacleads.com'
     };
     try {
